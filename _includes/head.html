@@ -10,11 +10,14 @@
 
 	<!-- CSS & Bootstrap -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="{{ "/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.css | relative_url }}">
-	<link rel="stylesheet" href="{{ "/css/styles.css" | relative_url }}">
+	<link rel="stylesheet" href="{{ "/node_modules/bootstrap/dist/css/bootstrap.min.css" | relative_url }}">
+	<link rel="stylesheet" href="{{ "/css/styles.css" | relative_url }}>
 
 	<!-- Fontawesome JavaScript -->
-	<link rel="stylesheet" href="{{ "/bower_components/fontawesome/css/fontawesome.min.css" | relative_url }}">
+	<link rel="stylesheet" href="{{ "/node_modules/@fontawesome/fontawesome-pro/css/fontawesome.min.css" | relative_url }}">
+
+	<!-- Typekit Fonts for Bayside -->
+	<link rel="stylesheet" href="https://use.typekit.net/lyj3cst.css">
 
     {% if page.url == 'blog/index.html' %}
 
