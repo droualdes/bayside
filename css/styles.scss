@@ -1,0 +1,2 @@
+// This is needed as scss won't preprocess yaml. This variable used for photos referenced in CSS styles.css.
+$baseurl: "{{ site.baseurl }}";
